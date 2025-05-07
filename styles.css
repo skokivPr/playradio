@@ -397,7 +397,7 @@ i {
 }
 
 .app-container {
-  max-width: 420px;
+  max-width: 520px;
   margin: 0 auto;
   position: relative;
   height: 100vh;
@@ -929,6 +929,7 @@ main::-webkit-scrollbar-thumb {
 
 .track-list {
   margin-top: 10px;
+  padding: 10px;
 }
 
 /* Category filter */
@@ -1295,7 +1296,7 @@ main::-webkit-scrollbar-thumb {
   border: 1px solid var(--border);
   color: var(--text-primary);
   padding: 5px 8px;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 0.85rem;
   outline: none;
   cursor: pointer;
@@ -1308,6 +1309,10 @@ main::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
   background-position: right 8px center;
   padding-right: 25px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .theme-selector:hover {
@@ -1383,7 +1388,7 @@ main::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  height: 100px;
+  height: 200px;
   margin-bottom: 20px;
   padding: 10px;
   border-radius: var(--border-radius);
